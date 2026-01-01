@@ -24,11 +24,11 @@ The objective is to develop a supervised machine learning model that classifies 
   - Sepal Width
   - Petal Length
   - Petal Width
-- Balanced dataset with no missing values
+
 
 ---
 
-## Methodology Overview
+## Method Overview
 - Exploratory data analysis was performed to study feature relationships.
 - Data was split into **80% training** and **20% testing** sets.
 - Feature scaling (standardization) was applied for linear models.
@@ -36,9 +36,6 @@ The objective is to develop a supervised machine learning model that classifies 
 ### Models Used
 - **Logistic Regression (Linear Model)**
 - **Decision Tree Classifier (Non-Linear Model)**
-
-Both models were trained and evaluated to compare linear and non-linear decision boundaries.
-
 ---
 
 ## Evaluation Metrics
@@ -60,6 +57,3 @@ Both models were trained and evaluated to compare linear and non-linear decision
 - **Error Analysis:** Misclassifications in reduced-data experiments occurred mainly in overlapping feature regions.
 - **Linear vs Non-Linear Comparison:** Both models performed equally well, indicating near-linear separability of the dataset, with Decision Trees offering better interpretability.
 
----
-
-## Repository Structure
